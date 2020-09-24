@@ -24,7 +24,7 @@ if len(sys.argv) == 2:
     else:
         options = Options()
         options.add_argument('-headless')
-        browser = webdriver.Firefox(executable_path=r"C:\Users\adilc\Desktop\geckodriver.exe",options=options)
+        browser = webdriver.Firefox(executable_path=r"add executable path here.",options=options)
         wait = WebDriverWait(browser, 10)
         #next_page = "https://www.sahibinden.com/chevrolet-cruze"
         next_page = sys.argv[1]
