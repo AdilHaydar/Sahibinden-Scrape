@@ -18,7 +18,7 @@ fiyat = []
 
 if len(sys.argv) == 2:
     if sys.argv[1].lower() == '-h' or sys.argv[1] == '--help':
-        print("Example : "+"sahibinden_scrape.py https://www.sahibinden.com/chevrolet-cruze")
+        print("Example : "+"python3 sahibinden_scrape.py https://www.sahibinden.com/chevrolet-cruze")
         sys.exit()
 
     else:
@@ -97,6 +97,6 @@ if len(sys.argv) == 2:
         print(data)
 
 else:
-    print("Example : "+"sahibinden_scrape.py https://www.sahibinden.com/chevrolet-cruze")
+    print("Example : "+"python3 sahibinden_scrape.py https://www.sahibinden.com/chevrolet-cruze")
     sys.exit()
 
